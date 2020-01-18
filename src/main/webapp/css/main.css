@@ -1,0 +1,27 @@
+.app-name, a:hover {
+	color: white;	 
+}
+
+
+.navbar-light .navbar-text a {	
+	color: white;
+}
+
+
+.branco {	
+	color: #a59e9e!important;
+}
+
+.login-text {
+	margin-top: 50px; 
+	color: #a59e9e;	
+}
+
+.bg-dark {
+	background-color: #27cc8f!important;
+}
+
+.image {
+	with: 60px;
+}
+
