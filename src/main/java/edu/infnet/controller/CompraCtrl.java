@@ -21,7 +21,7 @@ public class CompraCtrl extends HttpServlet {
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		HttpSession session = req.getSession();
+		HttpSession session = req.getSession(); 
 		session.setAttribute("user", "veloso");
 		req.getRequestDispatcher("pages/home.jsp").forward(req, resp);
 	}
